@@ -150,7 +150,7 @@ export default function Footer() {
                 href="mailto:hello@lumierestudios.com"
                 className="text-gold text-sm hover:text-gold-light transition-colors duration-300"
               >
-                hello@lumierestudios.com
+                SandamuthudinethraPhotography@gmail.com
               </a>
             </div>
           </motion.div>
