@@ -43,7 +43,7 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2 group">
             <div className="w-10 h-10 rounded-full border-2 border-gold flex items-center justify-center group-hover:bg-gold/20 transition-colors duration-300">
-              <span className="font-heading text-gold text-lg font-bold">D</span>
+              <span className="font-heading text-gold text-lg font-bold">DV</span>
             </div>
             <span className="font-heading text-xl text-cream tracking-wider">
               Dinethra Visuals
