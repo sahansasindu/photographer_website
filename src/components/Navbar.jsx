@@ -34,8 +34,8 @@ export default function Navbar() {
       animate={{ y: 0 }}
       transition={{ duration: 0.8, ease: 'easeOut' }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled
-          ? 'bg-charcoal-dark/95 backdrop-blur-md shadow-lg shadow-black/20'
-          : 'bg-transparent'
+        ? 'bg-charcoal-dark/95 backdrop-blur-md shadow-lg shadow-black/20'
+        : 'bg-transparent'
         }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -43,10 +43,10 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2 group">
             <div className="w-10 h-10 rounded-full border-2 border-gold flex items-center justify-center group-hover:bg-gold/20 transition-colors duration-300">
-              <span className="font-heading text-gold text-lg font-bold">L</span>
+              <span className="font-heading text-gold text-lg font-bold">D</span>
             </div>
             <span className="font-heading text-xl text-cream tracking-wider">
-              Lumière
+              Dinethra Visuals
             </span>
           </a>
 
