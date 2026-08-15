@@ -2,9 +2,9 @@ import { motion } from 'framer-motion'
 import { HiCamera, HiStar, HiHeart } from 'react-icons/hi'
 
 const stats = [
-  { icon: HiCamera, value: '2,500+', label: 'Photos Delivered' },
-  { icon: HiStar, value: '12+', label: 'Years Experience' },
-  { icon: HiHeart, value: '350+', label: 'Happy Clients' },
+  { icon: HiCamera, value: '100+', label: 'Photos Delivered' },
+  { icon: HiStar, value: '1+', label: 'Years Experience' },
+  { icon: HiHeart, value: '50+', label: 'Happy Clients' },
 ]
 
 export default function About() {
@@ -56,7 +56,7 @@ export default function About() {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="absolute -bottom-6 -right-4 lg:-right-8 bg-charcoal-dark text-cream p-6 shadow-2xl"
             >
-              <p className="font-heading text-4xl text-gold mb-1">12+</p>
+              <p className="font-heading text-4xl text-gold mb-1">1+</p>
               <p className="text-cream/70 text-sm tracking-wider uppercase">Years of<br />Experience</p>
             </motion.div>
           </motion.div>
