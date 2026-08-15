@@ -3,46 +3,44 @@ import { HiCheck } from 'react-icons/hi'
 
 const packages = [
   {
-    name: 'Essential',
-    price: '$499',
+    name: 'SILVER',
+    price: 'LKR 8,500',
     description: 'Perfect for personal portraits and small shoots',
     features: [
-      '1-hour photo session',
-      '1 location',
-      '30 edited digital photos',
-      'Online gallery access',
-      'Print-ready resolution',
+      '10–15 Professionally Edited Photos',
+      '01 Preferred Location',
+      '01 Preferred Outfit',
+      '01 Hour Photo Session',
+      'Online Client Gallery',
     ],
     popular: false,
   },
   {
-    name: 'Premium',
-    price: '$1,299',
+    name: 'GOLD',
+    price: 'LKR 12,000',
     description: 'Ideal for engagements, events, and family sessions',
     features: [
-      '3-hour photo session',
-      'Up to 3 locations',
-      '100 edited digital photos',
-      'Online gallery access',
-      'Print-ready resolution',
-      '10 retouched images',
-      'Same-day preview sneak peeks',
+      '20–25 Professionally Edited Photos',
+      '02 Preferred Locations',
+      '02 Preferred Outfits',
+      '02 Hour Photo Session',
+      'Online Client Gallery',
+
     ],
     popular: true,
   },
   {
-    name: 'Luxe',
-    price: '$2,999',
+    name: 'PLATINUM',
+    price: 'LKR 18,500',
     description: 'Complete coverage for weddings and grand events',
     features: [
-      'Full-day coverage (8 hours)',
-      'Unlimited locations',
-      '300+ edited digital photos',
-      'Online gallery access',
-      'Premium photo album',
-      '30 retouched images',
-      'Engagement session included',
-      'Second photographer',
+      '25+ Professionally Edited Photos',
+      '02 Preferred Locations',
+      '03+ Preferred Outfits',
+      '02 Hour Photo Session',
+      'Online Client Gallery',
+      'FREE 12×18 Inch Framed Photo (Your Favorite Image)',
+
     ],
     popular: false,
   },
@@ -79,7 +77,7 @@ export default function Services() {
           </h2>
           <div className="w-16 h-px bg-gold mx-auto mb-6" />
           <p className="text-cream/60 max-w-2xl mx-auto leading-relaxed">
-            Each package is thoughtfully designed to deliver an exceptional experience 
+            Each package is thoughtfully designed to deliver an exceptional experience
             from first consultation to final gallery delivery.
           </p>
         </motion.div>
@@ -106,11 +104,10 @@ export default function Services() {
               )}
 
               <div
-                className={`h-full p-8 lg:p-10 transition-all duration-500 ${
-                  pkg.popular
-                    ? 'bg-charcoal-light border-2 border-gold shadow-2xl shadow-gold/10'
-                    : 'bg-charcoal-light/50 border border-warm-gray/20 hover:border-gold/50 group-hover:shadow-xl group-hover:shadow-gold/5'
-                }`}
+                className={`h-full p-8 lg:p-10 transition-all duration-500 ${pkg.popular
+                  ? 'bg-charcoal-light border-2 border-gold shadow-2xl shadow-gold/10'
+                  : 'bg-charcoal-light/50 border border-warm-gray/20 hover:border-gold/50 group-hover:shadow-xl group-hover:shadow-gold/5'
+                  }`}
               >
                 <div className="text-center mb-8">
                   <h3 className="font-heading text-2xl text-cream mb-2">{pkg.name}</h3>
@@ -133,11 +130,10 @@ export default function Services() {
 
                 <a
                   href="#contact"
-                  className={`block text-center py-3.5 text-sm font-semibold tracking-wider uppercase transition-all duration-300 ${
-                    pkg.popular
-                      ? 'bg-gold text-charcoal-dark hover:bg-gold-light'
-                      : 'border border-gold/60 text-gold hover:bg-gold hover:text-charcoal-dark'
-                  }`}
+                  className={`block text-center py-3.5 text-sm font-semibold tracking-wider uppercase transition-all duration-300 ${pkg.popular
+                    ? 'bg-gold text-charcoal-dark hover:bg-gold-light'
+                    : 'border border-gold/60 text-gold hover:bg-gold hover:text-charcoal-dark'
+                    }`}
                 >
                   Book This Package
                 </a>

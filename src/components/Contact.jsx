@@ -4,9 +4,9 @@ import { HiMail, HiPhone, HiLocationMarker } from 'react-icons/hi'
 import { FaInstagram, FaFacebookF, FaPinterestP } from 'react-icons/fa'
 
 const contactInfo = [
-  { icon: HiPhone, label: 'Phone', value: '+1 (555) 123-4567', href: 'tel:+15551234567' },
-  { icon: HiMail, label: 'Email', value: 'hello@lumierestudios.com', href: 'mailto:hello@lumierestudios.com' },
-  { icon: HiLocationMarker, label: 'Studio', value: '123 Art District, New York, NY 10001', href: '#' },
+  { icon: HiPhone, label: 'Phone', value: '+94 71 197 3234', href: 'tel:+94 71 197 3234' },
+  { icon: HiMail, label: 'Email', value: 'SandamuthudinethraPhotography@gmail.com', href: 'mailto:SandamuthudinethraPhotography@gmail.com' },
+  { icon: HiLocationMarker, label: 'Studio', value: '369/A,Galkanda Rd, Kiriwaththduwa', href: '#' },
 ]
 
 const socials = [
@@ -94,9 +94,8 @@ export default function Contact() {
                   type="text"
                   value={formData.name}
                   onChange={(e) => handleChange('name', e.target.value)}
-                  className={`w-full bg-transparent border-b ${
-                    errors.name ? 'border-red-400' : 'border-warm-gray/30 focus:border-gold'
-                  } text-cream py-3 px-1 outline-none transition-colors duration-300 placeholder:text-cream/20`}
+                  className={`w-full bg-transparent border-b ${errors.name ? 'border-red-400' : 'border-warm-gray/30 focus:border-gold'
+                    } text-cream py-3 px-1 outline-none transition-colors duration-300 placeholder:text-cream/20`}
                   placeholder="Your full name"
                 />
                 {errors.name && <p className="text-red-400 text-xs mt-1">{errors.name}</p>}
@@ -112,9 +111,8 @@ export default function Contact() {
                   type="email"
                   value={formData.email}
                   onChange={(e) => handleChange('email', e.target.value)}
-                  className={`w-full bg-transparent border-b ${
-                    errors.email ? 'border-red-400' : 'border-warm-gray/30 focus:border-gold'
-                  } text-cream py-3 px-1 outline-none transition-colors duration-300 placeholder:text-cream/20`}
+                  className={`w-full bg-transparent border-b ${errors.email ? 'border-red-400' : 'border-warm-gray/30 focus:border-gold'
+                    } text-cream py-3 px-1 outline-none transition-colors duration-300 placeholder:text-cream/20`}
                   placeholder="your@email.com"
                 />
                 {errors.email && <p className="text-red-400 text-xs mt-1">{errors.email}</p>}
@@ -130,9 +128,8 @@ export default function Contact() {
                   rows={5}
                   value={formData.message}
                   onChange={(e) => handleChange('message', e.target.value)}
-                  className={`w-full bg-transparent border-b ${
-                    errors.message ? 'border-red-400' : 'border-warm-gray/30 focus:border-gold'
-                  } text-cream py-3 px-1 outline-none transition-colors duration-300 resize-none placeholder:text-cream/20`}
+                  className={`w-full bg-transparent border-b ${errors.message ? 'border-red-400' : 'border-warm-gray/30 focus:border-gold'
+                    } text-cream py-3 px-1 outline-none transition-colors duration-300 resize-none placeholder:text-cream/20`}
                   placeholder="Tell us about your project..."
                 />
                 {errors.message && <p className="text-red-400 text-xs mt-1">{errors.message}</p>}

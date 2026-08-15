@@ -4,22 +4,43 @@ import { HiChevronDown } from 'react-icons/hi'
 
 export default function Hero() {
   const videoRef = useRef(null)
+  const sectionRef = useRef(null)
 
   useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.play().catch((err) => {
-        console.log('Autoplay prevented or video loading:', err)
-      })
+    const section = sectionRef.current
+    if (!section) return
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (videoRef.current) {
+            if (entry.isIntersecting) {
+              videoRef.current.currentTime = 0
+              videoRef.current.play().catch((err) => {
+                console.log('Autoplay prevented or video loading:', err)
+              })
+            } else {
+              videoRef.current.pause()
+            }
+          }
+        })
+      },
+      { threshold: 0.3 }
+    )
+
+    observer.observe(section)
+
+    return () => {
+      observer.disconnect()
     }
   }, [])
 
   return (
-    <section id="home" className="relative h-screen w-full overflow-hidden">
+    <section ref={sectionRef} id="home" className="relative h-screen w-full overflow-hidden">
       {/* Video Background */}
       <video
         ref={videoRef}
         autoPlay
-        loop
         muted
         playsInline
         className="absolute inset-0 w-full h-full object-cover"
@@ -49,7 +70,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="text-gold text-sm sm:text-base tracking-[0.3em] uppercase font-medium mb-4"
           >
-            Lumière Studios
+            Dinethra Visuals
           </motion.p>
 
           {/* Tagline */}

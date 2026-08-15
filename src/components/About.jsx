@@ -70,33 +70,33 @@ export default function About() {
             className="lg:pl-8"
           >
             <h3 className="font-heading text-2xl sm:text-3xl text-charcoal-dark mb-2">
-              Alexander Lumière
+              Sandamuthu Dinethra
             </h3>
             <p className="text-gold text-sm tracking-[0.2em] uppercase font-medium mb-6">
-              Award-Winning Photographer
+              Professional Photographer
             </p>
 
             <div className="space-y-4 text-warm-gray leading-relaxed mb-8">
               <p>
-                With over a decade of experience behind the lens, I've dedicated my career to 
-                capturing the authentic beauty in every moment. From intimate weddings to grand 
+                With over a decade of experience behind the lens, I've dedicated my career to
+                capturing the authentic beauty in every moment. From intimate weddings to grand
                 celebrations, my approach blends documentary storytelling with fine art aesthetics.
               </p>
               <p>
-                My journey began in the streets of Paris, where I fell in love with the interplay 
-                of light and shadow. Today, that passion drives every frame I capture — seeking 
+                My journey began in the streets of Paris, where I fell in love with the interplay
+                of light and shadow. Today, that passion drives every frame I capture — seeking
                 the extraordinary in the ordinary, the timeless in the fleeting.
               </p>
               <p>
-                I believe that great photography isn't just about technical perfection — it's about 
-                connection, emotion, and the ability to make you feel something when you look at 
+                I believe that great photography isn't just about technical perfection — it's about
+                connection, emotion, and the ability to make you feel something when you look at
                 an image years from now.
               </p>
             </div>
 
             {/* Signature */}
             <div className="mb-10">
-              <p className="font-heading italic text-2xl text-charcoal-dark">Alexander Lumière</p>
+              <p className="font-heading italic text-2xl text-charcoal-dark"> Sandamuthu Dinethra</p>
               <div className="w-24 h-px bg-gold mt-2" />
             </div>
 

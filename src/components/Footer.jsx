@@ -39,11 +39,22 @@ export default function Footer() {
             transition={{ duration: 0.6 }}
             className="lg:col-span-1"
           >
-            <div className="flex items-center gap-2 mb-6">
-              <div className="w-10 h-10 rounded-full border-2 border-gold flex items-center justify-center">
-                <span className="font-heading text-gold text-lg font-bold">L</span>
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-11 h-11 rounded-full overflow-hidden border border-gold/50 shadow-md flex items-center justify-center bg-black">
+                <img
+                  src="/logo.png"
+                  alt="Dinethra Visuals"
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <span className="font-heading text-xl text-cream tracking-wider">Lumière</span>
+              <div className="flex flex-col">
+                <span className="font-heading text-xl text-cream tracking-wider font-semibold leading-none">
+                  Dinethra
+                </span>
+                <span className="text-[10px] text-gold tracking-[0.25em] uppercase font-medium mt-1">
+                  Visuals
+                </span>
+              </div>
             </div>
             <p className="text-cream/50 text-sm leading-relaxed mb-6">
               Premium photography that captures the beauty, emotion, and authenticity of life's most precious moments.
@@ -151,7 +162,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-cream/30 text-sm flex items-center gap-1">
-              © {currentYear} Lumière Studios. Crafted with <HiHeart className="text-gold text-sm" /> All rights reserved.
+              © {currentYear} Dinethra Visuals. Crafted with <HiHeart className="text-gold text-sm" /> All rights reserved.
             </p>
             <div className="flex gap-6">
               <a href="#" className="text-cream/30 text-xs hover:text-gold transition-colors duration-300">Privacy Policy</a>
