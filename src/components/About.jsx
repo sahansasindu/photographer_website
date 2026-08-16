@@ -73,24 +73,20 @@ export default function About() {
               Sandamuthu Dinethra
             </h3>
             <p className="text-gold text-sm tracking-[0.2em] uppercase font-medium mb-6">
-              Professional Photographer
+              Portrait & Casual Photographer
             </p>
 
             <div className="space-y-4 text-warm-gray leading-relaxed mb-8">
               <p>
-                With over a decade of experience behind the lens, I've dedicated my career to
-                capturing the authentic beauty in every moment. From intimate weddings to grand
-                celebrations, my approach blends documentary storytelling with fine art aesthetics.
+                I'm a passionate photographer based in Sri Lanka, focused on capturing natural moments, genuine emotions, and the personality behind every photo.
               </p>
               <p>
-                My journey began in the streets of Paris, where I fell in love with the interplay
-                of light and shadow. Today, that passion drives every frame I capture — seeking
-                the extraordinary in the ordinary, the timeless in the fleeting.
+                My work mainly includes casual portraits, birthday shoots, outdoor sessions, and lifestyle photography.
+                I enjoy creating relaxed shoots where people can feel comfortable in front of the camera and simply be themselves.
               </p>
               <p>
-                I believe that great photography isn't just about technical perfection — it's about
-                connection, emotion, and the ability to make you feel something when you look at
-                an image years from now.
+                For me, photography isn't just about taking a beautiful picture
+                it's about capturing a moment that you'll want to remember.
               </p>
             </div>
 

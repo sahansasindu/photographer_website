@@ -19,7 +19,7 @@ const serviceLinks = [
 
 const socials = [
   { icon: FaInstagram, label: 'Instagram', href: 'https://instagram.com' },
-  { icon: FaFacebookF, label: 'Facebook', href: 'https://facebook.com' },
+  { icon: FaFacebookF, label: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61592027426762' },
   { icon: FaPinterestP, label: 'Pinterest', href: 'https://pinterest.com' },
 ]
 
