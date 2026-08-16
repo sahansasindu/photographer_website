@@ -5,7 +5,7 @@ const packages = [
   {
     name: 'SILVER',
     price: 'LKR 8,500',
-    description: 'Perfect for personal portraits and small shoots',
+    description: 'Perfect for personal portraits and simple casual shoots',
     features: [
       '10–15 Professionally Edited Photos',
       '01 Preferred Location',
@@ -18,7 +18,7 @@ const packages = [
   {
     name: 'GOLD',
     price: 'LKR 12,000',
-    description: 'Ideal for engagements, events, and family sessions',
+    description: 'Ideal for birthday shoots, couple sessions, and creative portraits',
     features: [
       '20–25 Professionally Edited Photos',
       '02 Preferred Locations',
@@ -32,7 +32,7 @@ const packages = [
   {
     name: 'PLATINUM',
     price: 'LKR 18,500',
-    description: 'Complete coverage for weddings and grand events',
+    description: 'For creative outdoor sessions, special moments, and extended photoshoots',
     features: [
       '25+ Professionally Edited Photos',
       '02 Preferred Locations',
